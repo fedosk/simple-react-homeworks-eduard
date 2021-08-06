@@ -7,8 +7,6 @@
 }
 
 .btn {
-    display: flex;
-    align-items: center;
     height: 46px;
     appearance: none;
     border: 0;

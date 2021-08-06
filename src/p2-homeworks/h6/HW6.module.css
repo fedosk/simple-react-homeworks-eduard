@@ -1,0 +1,24 @@
+.container {
+    height: 100px;
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.input {
+    position: relative;
+    margin: 100px;
+}
+
+.input:before {
+    content: ' ';
+    position: absolute;
+    background-image: url("https://www.svgrepo.com/show/48087/inclined-ballpoint-pen.svg");
+    transform: scale(-1, 1);
+    width: 40px;
+    height: 40px;
+    right: 103%;
+    bottom: 4px;
+}
