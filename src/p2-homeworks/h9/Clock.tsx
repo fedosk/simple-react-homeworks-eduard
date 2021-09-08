@@ -7,25 +7,48 @@ function Clock() {
     const [show, setShow] = useState<boolean>(false)
 
     const stop = () => {
-        // stop
+        clearTimeout(timerId)
     }
+
     const start = () => {
         stop()
         const id: number = window.setInterval(() => {
-            // setDate
+            setDate(new Date())
         }, 1000)
         setTimerId(id)
     }
 
     const onMouseEnter = () => {
-        // show
+        setShow(true)
     }
     const onMouseLeave = () => {
-        // close
+        setShow(false)
     }
 
-    const stringTime = 'Time' // fix with date
-    const stringDate = 'Date' // fix with date
+    const getTwoDigitsTime = (num: number) => num < 10 ? `0${num}`: `${num}`
+
+    let time = date
+
+    const timeF = (date: Date | undefined) => {
+        if (time) {
+            let hours = getTwoDigitsTime(time.getHours())
+            let minutes = getTwoDigitsTime(time.getMinutes())
+            let seconds =  getTwoDigitsTime(time.getSeconds())
+            return `${hours}:${minutes}:${seconds}`
+        }
+    }
+
+    const dateF = (date: Date | undefined) => {
+        if (time) {
+            let day = getTwoDigitsTime(time.getDay())
+            let month = getTwoDigitsTime(time.getMonth())
+            let yar =  getTwoDigitsTime(time.getFullYear())
+            return `${day}.${month}.${yar}`
+        }
+    }
+
+    const stringTime = timeF(date) // fix with date
+    const stringDate = dateF(date) // fix with date
 
     return (
         <div>
@@ -50,3 +73,9 @@ function Clock() {
 }
 
 export default Clock
+
+
+
+
+
+
