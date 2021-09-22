@@ -1,21 +1,24 @@
 {
   "files": {
-    "main.css": "/simple-react-homeworks-eduard/static/css/main.26cea386.chunk.css",
-    "main.js": "/simple-react-homeworks-eduard/static/js/main.3b372a35.chunk.js",
-    "main.js.map": "/simple-react-homeworks-eduard/static/js/main.3b372a35.chunk.js.map",
+    "main.css": "/simple-react-homeworks-eduard/static/css/main.6c726ccf.chunk.css",
+    "main.js": "/simple-react-homeworks-eduard/static/js/main.11b6d6db.chunk.js",
+    "main.js.map": "/simple-react-homeworks-eduard/static/js/main.11b6d6db.chunk.js.map",
     "runtime-main.js": "/simple-react-homeworks-eduard/static/js/runtime-main.80866d49.js",
     "runtime-main.js.map": "/simple-react-homeworks-eduard/static/js/runtime-main.80866d49.js.map",
-    "static/js/2.524f58ee.chunk.js": "/simple-react-homeworks-eduard/static/js/2.524f58ee.chunk.js",
-    "static/js/2.524f58ee.chunk.js.map": "/simple-react-homeworks-eduard/static/js/2.524f58ee.chunk.js.map",
+    "static/css/2.04161cee.chunk.css": "/simple-react-homeworks-eduard/static/css/2.04161cee.chunk.css",
+    "static/js/2.d5867af4.chunk.js": "/simple-react-homeworks-eduard/static/js/2.d5867af4.chunk.js",
+    "static/js/2.d5867af4.chunk.js.map": "/simple-react-homeworks-eduard/static/js/2.d5867af4.chunk.js.map",
     "index.html": "/simple-react-homeworks-eduard/index.html",
-    "static/css/main.26cea386.chunk.css.map": "/simple-react-homeworks-eduard/static/css/main.26cea386.chunk.css.map",
-    "static/js/2.524f58ee.chunk.js.LICENSE.txt": "/simple-react-homeworks-eduard/static/js/2.524f58ee.chunk.js.LICENSE.txt",
+    "static/css/2.04161cee.chunk.css.map": "/simple-react-homeworks-eduard/static/css/2.04161cee.chunk.css.map",
+    "static/css/main.6c726ccf.chunk.css.map": "/simple-react-homeworks-eduard/static/css/main.6c726ccf.chunk.css.map",
+    "static/js/2.d5867af4.chunk.js.LICENSE.txt": "/simple-react-homeworks-eduard/static/js/2.d5867af4.chunk.js.LICENSE.txt",
     "static/media/Rolling.6caa979f.gif": "/simple-react-homeworks-eduard/static/media/Rolling.6caa979f.gif"
   },
   "entrypoints": [
     "static/js/runtime-main.80866d49.js",
-    "static/js/2.524f58ee.chunk.js",
-    "static/css/main.26cea386.chunk.css",
-    "static/js/main.3b372a35.chunk.js"
+    "static/css/2.04161cee.chunk.css",
+    "static/js/2.d5867af4.chunk.js",
+    "static/css/main.6c726ccf.chunk.css",
+    "static/js/main.11b6d6db.chunk.js"
   ]
 }
